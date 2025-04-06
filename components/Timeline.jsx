@@ -92,11 +92,11 @@ const Timeline = () => {
         <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
           <div
             ref={timelineRef}
-            className="flex items-center transition-transform duration-200 ease-out" 
-            style={{ 
-              paddingLeft: '310vw', 
-              paddingRight: '0', 
-            }}
+            className="flex items-center transition-transform duration-200 ease-out pl-[980vw]  md:pl-[440vw] lg:pl-[390vw] xl:pl-[310vw] 2xl:pl-[220vw]" 
+            // style={{ 
+            //   paddingLeft: '310vw', 
+            //   paddingRight: '0', 
+            // }}
           >
             {/* Horizontal Line */}
             <div className="absolute h-[2px] bg-gradient-to-r from-blue-500 via-blue-600 to-blue-800 top-1/2 transform -translate-y-1/2 left-0 right-0 shadow-2xl"></div>
