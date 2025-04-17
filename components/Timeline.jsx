@@ -89,10 +89,10 @@ const Timeline = () => {
   return (
     <>
       <div className="min-h-[400vh] bg-white" ref={containerRef}>
-        <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
+        <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden relative">
           <div
             ref={timelineRef}
-            className="flex items-center transition-transform duration-200 ease-out pl-[980vw]  md:pl-[440vw] lg:pl-[390vw] xl:pl-[310vw] 2xl:pl-[220vw]" 
+            className="flex items-center transition-transform duration-200 ease-out absolute left-0" 
             // style={{ 
             //   paddingLeft: '310vw', 
             //   paddingRight: '0', 
